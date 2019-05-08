@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>
+            Speedometer Demo
+        </title>
+        <script type="text/javascript" src="./speedometer.js"></script>
+        <script type="text/javascript">
+            window.onload = function() {
+                initSpeedometerColors("green", "#CF32A0", "magenta");
+                initAndDrawSpeedometer("speedometerWrapper", "speedometer", 95, true, "Bob", 100);
+                initSpeedometerText("Charlie retiring at", "age 65");
+            }
+        </script>
+    </head>
+    <body>
+        <div id="speedometerWrapper">
+        </div>
+    </body>
+</html>
